@@ -1,2 +1,1 @@
-# Virtual-Pen-Project
-Python-Opencv Devlopment
+# Python-Opencv Devlopment

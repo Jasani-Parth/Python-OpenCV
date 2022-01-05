@@ -66,7 +66,7 @@ while True:
 
     if len(mypoints) != 0:
         drawOnCanvas()
-        
+         
     cv2.imshow("Live", img)
     cv2.imshow("Result", imgResult)
     if cv2.waitKey(1) & 0xFF == ord('q'):

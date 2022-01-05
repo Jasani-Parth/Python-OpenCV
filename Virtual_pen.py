@@ -66,8 +66,7 @@ while True:
 
     if len(mypoints) != 0:
         drawOnCanvas()
-    # I Have Done Mistake Here That Is I Call findColor()->func Below cv2.imshow("result",imgResult) so It Will Never
-    # Show contours
+        
     cv2.imshow("Live", img)
     cv2.imshow("Result", imgResult)
     if cv2.waitKey(1) & 0xFF == ord('q'):
